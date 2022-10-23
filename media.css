@@ -1,0 +1,391 @@
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+
+    :root {
+        --paddings: 2%;
+    }
+
+    .header-center{
+        width: 100px;
+        height: 100px;
+    }
+
+    .header-left{
+        width:  20%;
+        height: 50px;
+    }
+
+    .header-left > p{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .header-right{
+        width: 20%;
+        height: 50px;
+    }
+
+    .header-right > p{
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .header-bottom{
+        gap: 0;
+        justify-content: space-around;
+    }
+
+    .burger{
+        display: flex;
+    }
+
+    .header-bottom > ul{
+        display: none;
+    }
+    
+    main{
+        flex-direction: column;
+    }
+
+    .main-text{
+        width: 100%;
+        align-items: center;
+    }
+
+    .main-text > h1{
+        font-size: 50px;
+    }
+
+    .main-text > p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .main-img{
+        height: 600px;
+        width: 100%;
+    }
+
+    .main-img > img{
+        display: none;
+    }
+
+    .section1{
+        justify-content: flex-start;
+    }
+
+    .section1-box{
+        min-width: 100%;
+    }
+
+    .section2{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .section2-img{
+        width: 100%;
+    }
+
+    .section2-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-section2-top > h1{
+        font-size: 20px;
+    }
+
+    .text-section2-top > p{
+        font-size: 15px;
+    }
+
+    .text-section2-center{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .text-section2-center-left > h1{
+        font-size: 30px;
+    }
+
+    .text-section2-center-left > p{
+        font-size: 15px;
+    }
+
+    .text-section2-center-right > h1{
+        font-size: 30px;
+    }
+
+    .text-section2-center-right > p{
+        font-size: 15px;
+    }
+
+    .section3{
+        flex-direction: column;
+        height: 3200px;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .see-section3{
+        margin: auto;
+    }
+
+    .img-section3{
+        width: 100%;
+        height: 1200px;
+        gap: 100px;
+        position: relative;
+    }
+
+    .text-section3{
+        width: 100%;
+        height: 2000px;
+    }
+
+    .text-section3-box > p{
+        font-size: 20px;
+    }
+
+    .text-section3-box > p > span{
+        font-size: 15px;
+    }
+
+    .text-section3-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .text-section3-box{
+        gap: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .line-section3{
+        display: none;
+    }
+
+    .box-section4{
+        min-width: 320px;
+    }
+
+    .title-section4{
+        margin-left: 20px;
+    }
+
+    .section4 > h1{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    .section4 > p{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .img-box-section4{
+        padding-left: 5px;
+        gap: 20px;
+    }
+
+    .text-box-section4{
+        padding-left: 5px;
+    }
+
+    .img-box-section4 > p{
+        font-size: 25px;
+    }
+
+    .text-box-section4{
+        font-size: 13px;
+    }
+
+    .text-box-section4 > br{
+        display: none;
+    }
+
+    .section6 {
+        height: 1000px;
+    }
+
+    .sec6-bottom {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .sec6-left {
+        width: 100%;
+        height: 49%;
+    }
+
+    .sec6-right {
+        width: 100%;
+        height: 49%;
+    }
+
+    .section7 {
+        height: 2200px;
+        gap: 2%;
+    }
+
+    .section7 > ul {
+        flex-direction: column;
+        height: 80%;
+        gap: 2%;
+    }
+
+    .section7 > ul > li {
+        width: 100%;
+        height: 25%;
+    }
+
+    .section8 {
+        height: 800px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section8-left {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section8-right {
+        width: 100%;
+    }
+
+    .section8-right > ul > li {
+        border: 1px solid #323841;
+    }
+
+    .section9 {
+        height: 2000px;
+        gap: 2%;
+    }
+
+    .sec9-container {
+        flex-direction: column;
+        height: 1600px;
+        gap: 5%;
+    }
+
+    .sec9-card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sec9-name {
+        justify-content: center;
+    }
+
+    .sec9-desc {
+        gap: 5%;
+    }
+
+    .sec9-desc > h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section10 {
+        height: 1200px;
+    }
+
+    .sec10-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sec10-container > form {
+        width: 100%;
+        gap: 5%;
+    }
+
+    .form-top,.form-bottom {
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .form-top > input,.form-bottom > input {
+        width: 100%;
+        height: 100px;
+    }
+
+    footer {
+        height: 600px;
+    }
+
+    .footer-top-left {
+        display: none;
+    }
+
+    .footer-top-center {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-top-center > img {
+        width: 50%;
+    }
+
+    .footer-top-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .footer-social {
+        width: 100%;
+        display: none;
+    }
+
+    .footer-center-right {
+        font-size: 16px;
+    }
+
+    .footer-center-right > p > span {
+        font-size: 16px;
+    }
+
+    .footer-center-left {
+        display: none
+    }
+
+    .footer-center-center {
+        display: none;
+    }
+
+    .footer-bottom-center {
+        display: none;
+    }
+
+    .footer-base-left {
+        width: 100%;
+    }
+
+    .footer-base-right {
+        display: none;
+    }
+
+    .footer-base-left > p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .footer-bottom-left > p {
+        font-size: 16px;
+    }
+
+    .footer-bottom-right > p {
+        font-size: 16px;
+        text-align: center;
+    }
+}
